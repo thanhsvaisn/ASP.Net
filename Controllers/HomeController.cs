@@ -1,8 +1,8 @@
+using Example.Models;
 using Microsoft.AspNetCore.Mvc;
-using Product.Models;
 using System.Diagnostics;
 
-namespace Product.Controllers
+namespace Example.Controllers
 {
     public class HomeController : Controller
     {
@@ -14,11 +14,6 @@ namespace Product.Controllers
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

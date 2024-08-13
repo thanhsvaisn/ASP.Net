@@ -1,4 +1,4 @@
-namespace Product.Models
+namespace Example.Models
 {
     public class ErrorViewModel
     {
